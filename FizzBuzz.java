@@ -20,6 +20,7 @@ public class FizzBuzz {
         else
             System.out.println(num);
         
+        scanner.close();
     }
 
 }
