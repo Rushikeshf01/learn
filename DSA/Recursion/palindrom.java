@@ -9,7 +9,8 @@ public class palindrom {
         return false;
     }
     public static void main(String[] args) {
-        String name = "MADAM";
-        System.out.println(checkPalindrom(0, name, name.length()));
+        String name = "A man, a plan, a canal: Panama";
+        System.out.println(name.toLowerCase().replaceAll("[^a-zA-Z0-9]", ""));
+        System.out.println(checkPalindrom(0, name.toLowerCase(), name.length()));
     }
 }
