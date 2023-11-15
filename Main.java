@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import java.awt.*;
 import java.text.*;
 public class Main {
 
@@ -8,7 +7,7 @@ public class Main {
         int[][] numbers = {{1,2,4,5}, {1,3,5,6}};
         System.out.println(Arrays.deepToString(numbers));
 
-        final float PI = 3.14F;
+        // final float PI = 3.14F;
         // pi = 1;
 
         double result = (double)10 / (double)3;
@@ -40,5 +39,6 @@ public class Main {
         System.out.print("Name: ");
         String name = scanner.nextLine().trim();
         System.out.println("You are "+ name);
+        scanner.close();
     }
 }

@@ -50,5 +50,7 @@ public class MortgageCalculator {
         String mortgage = NumberFormat.getCurrencyInstance().format(res);
         System.out.print("Mortgage: " + mortgage);
 
+        scanner.close();
+
     }
 }
