@@ -1,6 +1,4 @@
-import java.util.Scanner;
 import java.util.*;
-import java.util.Collections;
 
 public class printAllDivison {
     public static void main(String[] args){

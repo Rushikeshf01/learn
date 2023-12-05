@@ -25,7 +25,7 @@ public class countFreq {
 
         int q = sc.nextInt();
 
-        int[] freqArray = new int[1000000000];
+        int[] freqArray = new int[100000000];
         for(int i=0;i<n;i++){
             freqArray[numArray[i]] += 1;
         }
